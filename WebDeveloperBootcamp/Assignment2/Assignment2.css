@@ -1,24 +1,17 @@
 h1{
     color: blue;
 }
-
-p{
-    font-family:Comic Sans MS;
-}
-
-ul{
-    font-family:Arial;
-}
 .container {
     position: relative;
-    width: 50%;
+    width: 200px;
+    height: 250px;
 }
 
 img{
-    width:30%;
-    height:auto;
-    border-radius:5%;
-    display:block;
+    border-radius: 5%;
+    display: block;
+    width: 200px;
+    height: 250px;
 }
 
 .overlay {
@@ -27,20 +20,21 @@ img{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
     opacity: 0;
+    width: 200px;
+    height: 250px;
     transition: .5s ease;
     background-color: #008CBA;
+    border-radius:5%;
 }
 
-.container:hover.overlay {
+.container:hover .overlay {
     opacity: 1;
 }
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
