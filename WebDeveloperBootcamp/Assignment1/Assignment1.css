@@ -1,0 +1,26 @@
+strong{
+    color:black;
+}
+
+h1{
+    text-align:center;
+    color:blue;
+    font-size:50px;
+}
+h2{
+    font-size:30px;
+    color:green;
+}
+ol{
+    font-size:15px;
+    color: red;
+}
+
+ul{
+    font-size: 16px;
+    color: magenta;
+}
+
+em{
+    color:deepskyblue;
+}
