@@ -1,0 +1,13 @@
+body{
+    background: beige;
+}
+
+h1{
+    color:blue;
+    text-align:center;
+}
+
+table, td, th{
+    border: 1px solid black;
+    text-align: center;
+}
