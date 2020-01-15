@@ -1,0 +1,35 @@
+body{
+    border: 20px solid lightslategray;
+    margin: 20px auto;
+    width:700px;
+    max-width: 80%;
+}
+.post > div{
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-left:10%;
+    margin-right:10%;
+}
+.date{
+    font-family: Source Sans Pro;
+    font-size: small;
+    text-transform: uppercase;
+    padding-bottom:8px;
+}
+
+.title{
+    font-family: Raleway;
+    font-size:x-large;
+    text-transform:capitalize;
+}
+
+.content{
+    border-bottom: 1px solid gray;
+    font-family:Ubuntu;
+    font-size:small;
+}
+
+.content > .first{
+    border-left: 5px solid gray;
+    padding:10px;
+}
